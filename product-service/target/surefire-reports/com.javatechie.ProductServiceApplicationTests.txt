@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.ProductServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.567 s <<< FAILURE! - in com.javatechie.ProductServiceApplicationTests
+shouldReturnAllProductsFromDB  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6d5380c2]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+createNewProductTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6d5380c2]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
